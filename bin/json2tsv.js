@@ -22,7 +22,7 @@ const inputPromise = new Promise((resolve,reject)=>{
 	const rows = Array.from(data);
 	rows.forEach((row)=>{
 		const print_str =
-		[ row.isuue, row.date, row.numbers, row. bonus, 
+		[ row.issue, row.date, row.numbers, row. bonus, 
 			row.prizes[0]?.volume, row.prizes[0]?.money, 
 			row.prizes[1]?.volume, row.prizes[1]?.money, 
 			row.prizes[2]?.volume, row.prizes[2]?.money, 
